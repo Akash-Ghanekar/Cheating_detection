@@ -1,0 +1,12 @@
+# Use the full paths to your folders
+path: C:/Users/ghane/Desktop/Detection_project/code/data
+train: images/train  # This looks inside 'path' for a folder named 'images/train'
+val: images/val      # This looks inside 'path' for a folder named 'images/val'
+
+# Number of classes (REQUIRED)
+nc: 2
+
+# Class names
+names:
+  0: cheating
+  1: non-cheating
